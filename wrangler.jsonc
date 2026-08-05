@@ -16,7 +16,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "nodewarden-db"
+      "database_name": "nodewarden-db",
+      "database_id": "be52031e-5b7b-4533-bff2-a4eefa30fff3"
     }
   ],
   "r2_buckets": [
