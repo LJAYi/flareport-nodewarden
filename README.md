@@ -4,7 +4,7 @@
 
 This standalone directory is the Cloudflare Deploy Button root for NodeWarden. It intentionally contains no copy of the upstream source: the build downloads the exact commit in `upstream.lock.json`, verifies the archive SHA-256, extracts it under ignored `.flareport/upstream`, builds it, and deploys from there.
 
-Production deployments from `main` are built and deployed automatically by Cloudflare Workers Builds.
+Production deployments from `main` are built and deployed automatically by Cloudflare Workers Builds; preview builds are disabled.
 
 ## Build contract
 
